@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(7, 4, 33);
+    color: rgb(207, 207, 207);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(7, 4, 40);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 25px; 
+}
+nav ul li a{   
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    cursor: pointer;
+}
+#textbackg:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+}
+.left {
+    font-size: 1.5rem;
+}
+.right ul li img{
+    width: 30px;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.firstsection > div{
+    width: 30%;
+}
+.firstsection {
+    color: rgb(118, 99, 127);
+    font-size: 2rem;
+    margin: 100px 0;
+}
+.leftsection .btn{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(6 0 55);
+    color: violet;
+    cursor: pointer;
+    border: 2px solid #eddede;
+}
+.rightsection img{
+    height: 27rem;
+    width: 30rem;
+    mix-blend-mode: normal;
+    filter:drop-shadow(10px 10px 65px rgb(143, 108, 159));
+
+}
+.colr{
+    color: rgb(150, 88, 174);
+    font-family: 'Poppins', sans-serif;
+}
+.secondsection{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgb(4, 3, 25);
+    padding: 30px 0 30px 0px;
+}
+.secondsection p{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.skl{
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+}
+.secondsection img{
+    width: 66px;
+    height: 66px;
+}
+
+.thirdsection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.thirdsection > div{
+    width: 30%;
+}
+.thirdsection {
+    color: rgb(207, 207, 207);
+    font-size: 1rem;
+    padding: 30vh 0;
+    background-color: rgb(6 4 37);
+}
+.aboutimg img{
+    width: 35rem;
+    height: 21rem;
+    border-radius: 35px;
+    mix-blend-mode: normal;
+    filter: drop-shadow(10px 10px 25px rgb(143, 108, 159));
+}
+.aboutme h2{
+    padding-bottom: 20px;
+}
+.fourthsection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fourthsection > div{
+    width: 30%;
+}
+.fourthsection {
+    color: rgb(207, 207, 207);
+    font-size: 1rem;
+    padding: 30vh 0;
+    background-color: rgb(6 4 37);
+}
+.rightsection img{
+    width: 35rem;
+    height: 21rem;
+    border-radius: 35px;
+    mix-blend-mode: normal;
+    filter: drop-shadow(10px 10px 25px rgb(143, 108, 159));
+}
+.footerbar{
+    background-color: rgb(6 5 20);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+}
+.footerthired ol{
+    display: flex;
+    justify-content: center;
+}
+.footerthired img{
+    width: 30px;
+}
+.footerthired ol li {
+    list-style: none;
+    margin: 0 25px;
+}
